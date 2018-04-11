@@ -1,12 +1,12 @@
-Device Tree Blob Overlay Configuration File System Debian Package
-=================================================================
+Device Tree Blob Overlay Configuration File System Kernel Module Debian Package
+====================================================================================
 
 Overview
 ------------------------------------------------------------------------------------
 
 ### Introduction
 
-This is a repository for making dtbocfg debian package.
+This is a repository for making dtbocfg kernel module debian package.
 
 dtbocfg is Device Tree Blob Overlay ConFiGuration file system.
 
@@ -21,8 +21,8 @@ Build Debian Package
 ### Download repository
 
 ```console
-shell$ git clone --recursive --depth=1 -b v0.0.5 git://github.com/ikwzm/dtbocfg-debpkg
-shell$ cd dtbocfg-debpkg
+shell$ git clone --recursive --depth=1 -b v0.0.5 git://github.com/ikwzm/dtbocfg-kmod-dpkg
+shell$ cd dtbocfg-kmod-dpkg
 ```
 
 ### Cross Compile
