@@ -21,7 +21,7 @@ Build Debian Package
 ### Download repository
 
 ```console
-shell$ git clone --recursive --depth=1 -b v0.0.5 git://github.com/ikwzm/dtbocfg-kmod-dpkg
+shell$ git clone --recursive --depth=1 -b v0.0.6 git://github.com/ikwzm/dtbocfg-kmod-dpkg
 shell$ cd dtbocfg-kmod-dpkg
 ```
 
@@ -38,12 +38,12 @@ shell$ cd dtbocfg-kmod-dpkg
 
 
 ```console
-shell$ sudo debian/rules arch=arm deb_arch=armhf kernel_release=4.14.21-armv7-fpga kernel_src_dir=/usr/src/linux-4.14.21-armv7-fpga binary
+shell$ sudo debian/rules arch=arm deb_arch=armhf kernel_release=4.16.18-armv7-fpga kernel_src_dir=/usr/src/linux-4.16.18-armv7-fpga binary
     :
     :
     :
-shell$ file ../dtbocfg-4.14.21-armv7-fpga_1.1.0-1_armhf.deb
-../dtbocfg-4.14.21-armv7-fpga_1.1.0-1_armhf.deb: Debian binary package (format 2.0)
+shell$ file ../dtbocfg-4.16.18-armv7-fpga_0.0.6-1_armhf.deb
+../dtbocfg-4.16.18-armv7-fpga_0.0.6-1_armhf.deb: Debian binary package (format 2.0)
 ```
 
 ### Self Compile
@@ -53,7 +53,7 @@ shell$ sudo debian/rules binary
     :
     :
     :
-shell$ file ../dtbocfg-4.14.21-armv7-fpga_1.1.0-1_armhf.deb
-../dtbocfg-4.14.21-armv7-fpga_1.1.0-1_armhf.deb: Debian binary package (format 2.0)
+shell$ file ../dtbocfg-4.16.18-armv7-fpga_0.0.6-1_armhf.deb
+../dtbocfg-4.16.18-armv7-fpga_0.0.6-1_armhf.deb: Debian binary package (format 2.0)
 ```
 
