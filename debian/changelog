@@ -1,3 +1,11 @@
+dtbocfg (0.0.9-1) unstable; urgency=low
+
+  * v0.0.8 Release
+  * Switch the dtbo file to using a binary attribute, removing the 4KiB limit for overlays
+
+ -- ikwzm <ichiro_k@ca2.so-net.ne.jp>  Mon, 15 Jul 2019 18:00:00 +0900
+
+
 dtbocfg (0.0.8-1) unstable; urgency=low
 
   * v0.0.8 Release
